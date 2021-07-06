@@ -71,13 +71,13 @@ export default {};
   width: 21.5rem;
 }
 
-@media (max-width: 500px) {
+@media only screen and (min-width: 320px) and (max-width: 767px) {
   .header {
     font-weight: 900;
     font-size: 3rem;
   }
 }
-@media (max-width: 900px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .header {
     font-weight: 900;
     font-size: 2.5rem;
